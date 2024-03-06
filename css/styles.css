@@ -1,0 +1,423 @@
+/*
+Author Thiersy
+Date: Jan3/2024
+File Name: styles.css
+*/
+@import url(http://fonts.googleapis.com/css?family=Wellfleet);
+                       /* CSS Reset */
+body, header, nav, main, footer, {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}/*--end Css Reset*/
+
+                      /* Style rules for body and images */
+body{
+background-color: #000;
+}
+	
+	
+/* --end rules body */
+
+ /* Style Rule for box sizing applies to all elements */
+ * {
+   box-sizing: border-box;
+ }/* end rule for box sizing */
+
+/* img logo */
+.logo{
+     
+}
+#answer {
+     background: #F0C30E;
+	border: 12px double #0A8AD3;
+	color: #0A8AD3;
+	text-align: left;
+	padding: 20px;
+	margin: 70px auto 10px auto;
+	width: 250px;
+	text-align: center;}
+
+	.page {
+  max-width: 640px;
+  margin: 0 auto 30px auto;}
+#page {
+  background-color: gray;
+  position: center;
+  text-align: center;}
+.thing{
+  background-color: #000;
+  color: #fff;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  font-size: 24px;
+  letter-spacing: .05em;
+  list-style-type: none;
+  text-shadow: 2px 2px 1px #9f593f;
+  text-align: left;
+  height: 50px;
+  padding-left: 1em;
+  padding-top: 10px;
+  padding-right: 1em;
+
+}
+.register {
+  background-color: #1fb684;
+  color: #fff;
+  font-weight: bold;
+  display: inline-block;
+  width: auto;
+  float: center;
+  margin: 0.5em 0 0 0;
+}
+ h2 {
+  margin: 1.75em 0 0 0;
+  color: #E8A812; 
+  font-weight: normal;
+}
+h2 + p {
+  margin: 0.25em 0 0 0;}
+p + p {
+  margin: 0;}
+p + h2 {
+  margin: 10px 0 0 0;
+}
+    #info {
+  background-color: #1044FA;
+  color: #10BCFA; 
+  width: 200px;
+  padding: 0 15px;
+  text-align: center;
+  min-height: 100%;
+ 
+  top: 0;
+  right: 15%;}
+
+#seasonlName {
+  text-transform: uppercase;
+  text-align: center; 
+  font-size: 120%;
+  margin-top: 10px;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff; 
+  padding: 10px 0;}
+
+#package {
+  font-size: 440%;
+  color: #ffb87a;
+  display: inline-block;
+  margin: 0;}
+
+#packageRate {
+  text-decoration: line-through;
+  display: inline-block;
+  float: left;
+  padding-top: 10px;}
+
+#specialRate {  
+  font-size: 440%;
+  color: #ffb87a;
+  display: inline-block;
+  padding: 10px 0 20px 0;
+  margin: 0;}
+
+#offerEnds {
+  text-transform: uppercase;
+  color: #ffb87a;
+  font-size: 75%;}
+
+.true, .false {
+  padding: 0 50px 0 50px;
+  line-height: 28px;
+  text-align: left;
+  background-image: url("");
+  background-position: 120px 0;
+  background-repeat: no-repeat;}
+
+.false {
+ background-position: 120px -28px;}
+                     /* Style rules for navbar */
+nav {
+	padding: 1%;
+    margin-bottom: 1%;
+ 
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    font-size: 1.5em;
+    font-family: 'Francois One', sans-serif;
+    border-top: 1px solid #fff;
+}
+
+nav li:first-child {
+    border-top: none;
+}
+
+nav li a {
+    display: block;
+    color: #fff;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}/*---end rules for navbar--*/
+
+/* Style rules for main content */
+main {
+    background-color: #fff;
+    padding: 2%;
+    font-size: 1.15em;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+/* Form styles */
+
+form {
+  padding: 0 60px 65px 60px;}
+
+label {
+ 
+  display: block;
+  margin: 10px 0 10px 0;
+  font-size: 24px;}
+
+
+input[type='submit'], a.add {
+  background-color: #cb6868;
+  color: #f3dad1;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 10px;
+  margin-top: 10px;
+  float: right;
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: uppercase;}
+
+input[type='submit']:hover, a.add:hover {
+  background-color: #d75359;
+  
+  cursor: pointer;
+  box-shadow: none;
+  position: relative;
+  top: 1px;}
+
+textarea {
+  width: 96%;
+  height: 5em;
+  line-height: 1.4em;}
+
+select, option {
+  font-size: 16px;}
+
+
+#feedback, #termsHint {
+  background-image: url('images/warning.png');
+  background-repeat: no-repeat;
+  background-position: 2px 14px;
+  padding: 10px 0 0 22px;}
+
+#feedback.warning {background-image: url('images/warning.png');}
+
+#packageHint {
+  background-image: url('images/hint.png');
+  background-repeat: no-repeat;
+  background-position: 2px 5px;
+  padding-left: 22px;}
+
+.selectbox {
+  display: inline;}
+
+.checkbox {
+  display: inline;
+  font-size: 16px;}
+
+
+.third {
+  width: 320px;
+  float: left;}
+.two-thirds {
+  width: 640px;
+  float: left;}
+
+p {margin-top: 0;}
+
+input, textarea {
+  border-radius: 3px;
+  border: none;
+  box-sizing: border-box;
+  background-color: #efefef;
+  font-size: 100%;
+  width: 100%;
+  padding: 0.3em 0.5em 0.3em 0.5em;}
+
+textarea {
+  height: 5em;
+  line-height: 1.4em;}
+
+input[type=submit] {
+  background-color: #1fb684;
+  color: #fff;
+  font-weight: bold;
+  display: inline-block;
+  width: auto;
+  clear:left;
+  float: right;
+  padding: 0.3em 0.5em 0.3em 0.5em;
+  margin: 0.5em 0 0 0;}
+
+/* Angular external data */
+table {margin-top: 3em;}
+#timetable table { margin-top: 0; }
+th {
+  text-align: left;
+  text-transform: uppercase;
+  border-bottom: 1px solid #999;
+  font-size: 120%;}
+td {
+  font-size: 100%;
+  padding: 0 1em 1em 0;
+  vertical-align: top;}
+table.ng-scope th:nth-child(2) {
+  min-width: 11em;}
+
+/*-----end main content*/
+
+/* Style rules for footer content */
+footer p {
+    font-size: 0.75em;
+    text-align: center;
+    color: #fff;
+    padding: 0 1em;
+}
+
+footer p a {
+    color: #fff;
+    text-decoration: none;
+}/*-----end footer rules---*/
+
+
+/* Show mobile class, hide tablet-desktop class */
+.mobile {
+    display: block;
+}
+
+.tablet-desktop {
+    display: none;
+}/*--- end show mobile/hide tablet desktop */
+
+                        /* Style rules for main content */
+main {
+    background-color: #fff;
+    margin-left: 2%;
+    padding: 2%;
+    font-size: 1.15em;
+    font-family: 'Wellfleet', times, serif;
+	font-size: 98%;
+
+}/*-----end main content*/
+
+
+.mobile h3 {
+  text-shadow: 5px 5px 8px #ccc;
+}
+
+
+
+                        /* Style rules for footer content */
+footer p {
+    font-size: 0.75em;
+    text-align: center;
+    color: #fff;
+    padding: 0 1em;
+}
+
+footer p a {
+    color: #fff;
+    text-decoration: none;
+}/*-----end footer rules---*/
+
+                       /* Media Query  for Tablet viewport */
+
+@media screen and (min-width:630px), print {
+
+                       /* Tablet Viewport: Show tablet-desktop class,hide mobile class */
+  .tablet-desktop {
+    display: block;
+  }
+
+.mobile {
+  display: none;
+}/*--- End Show tablet-desktop, hide mobile class*/
+
+                                  /* Tablet Viewport: Style rule for header */
+  header {
+    padding-bottom: 2%;
+  }/* --- End Style rule for header */
+
+                                 /*Tablet Viewport: Style rules for nav area */
+  nav li {
+    border-top: none;
+    display: inline-block;
+    border-right: 1px solid #fff;
+  }
+
+  nav li:last-child {
+    border-right: none;
+  }
+
+ nav li a {
+  padding: 0.1em 0.75em;
+}/*---- end style rules for nav area */
+
+                                  /* Tablet Viewport: Style rules for main content area */
+ main ul {
+   margin: 0 0 4% 10%
+ }/*---end style rules main content*/
+
+}/*-------end Media Query Tablet viewport */
+
+                              /* Media Query for Desktop Viewport */
+
+@media screen and (min-width:1015px), print {
+
+  /* Desktop Viewport: Style rule for header */
+  header {
+    width: 25%;
+    float: left;
+    padding-bottom: 0;
+  }/*---end style rule for header*/
+
+  
+      /* Desktop viewport: Style rules for main content */
+      main {
+        clear: left;
+
+ 
+
+
+      }/*---end main content */
+
+}/*-----end Media Query desktop Viewports */
+
+   
+                                          /* Media Query for Large Desktop Viewports */
+@media screen and (min-width:1921px) {
+
+}/*---- end Media Query Large Desktop Viewports */
+
+                                            /* Media Query  for Print */
+@media print {
+
+  body{
+    background-color: #fff;
+    color:  #000;
+  }
+}/*-----End  Media query for Print*/
+
+
+

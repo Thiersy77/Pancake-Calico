@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html ng-app>
+  <head>
+    <title>15 minutes session price</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.2/angular.min.js"></script>
+    <script src="js/price.js"></script>
+    <link rel="stylesheet" href="css/price.css">
+  </head>
+  <body>
+    <header>
+ <div>
+                 <!--nav area for navigation bar -->        
+              <nav>
+                <ul>
+                 <li><a href="index.html">Home</a></li>
+                 <li> <a href="Gallery.html">Gallery</a></li>
+                 <li> <a href="packages.html">Packages</a></li>
+                  <li> <a href="deal.html">Promotions</a></li> 
+                 <li> <a href="contact.html">Contact</a></li>
+                </ul>
+               </nav> 
+              </div>
+<main>
+
+<h1>Pancake Calico Bundles</h1></header>
+    <h2>15 minutes Mini-Sessions Price </h2>
+    
+      <table ng-controller="BasketCtrl">
+        <tr><td>Item:</td><td>{{ description }}</td></tr>
+        <tr><td>Cost:</td><td>${{ cost }}</td></tr>
+        <tr><td>Qty:</td><td><input type="number" ng-model="qty"></td></tr>
+        <tr><td>Subtotal:</td><td>{{qty * cost | currency}}</td></tr>
+      </table>
+   
+  
+</main>  
+
+</body>
+</html>
